@@ -1,0 +1,10 @@
+a,r,s=map(int,input().split())
+if(a>r):
+    if(a>s):
+        print(a)
+    else:
+        print(s)
+elif(r>s):
+    print(r)
+else:
+    print(s)
